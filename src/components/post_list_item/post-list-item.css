@@ -1,0 +1,17 @@
+.app-list-item{
+    margin: 5px;
+}
+
+.btn-sm{
+    background: #fff;
+    border: 0px;
+    margin: 1px;
+}
+
+.btn-star{
+    color:gold;
+}
+
+.btn-trash{
+    color:rgb(110, 0, 0);
+}

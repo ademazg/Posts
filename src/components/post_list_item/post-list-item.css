@@ -1,17 +1,38 @@
 .app-list-item{
     margin: 5px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.fa-heart{
+    margin-left: 5px;
+    color: gray;
+}
+
+.like{
+   color: rgb(221, 25, 25); 
 }
 
 .btn-sm{
-    background: #fff;
-    border: 0px;
+    background: #e7f1fa;
+    border: 1px solid #999999;
     margin: 1px;
 }
 
 .btn-star{
+    color:rgb(197, 193, 169);
+}
+
+.important{
     color:gold;
 }
 
+.importantSpan{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .btn-trash{
-    color:rgb(110, 0, 0);
+    color:rgb(148, 0, 0);
 }

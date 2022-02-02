@@ -1,9 +1,13 @@
 import PostListItem from "../post_list_item";
 
-const PostList = ({posts}) =>{
-    const elements = posts.map((item,key)=>{
+const PostList = ({posts, onDelete}) =>{
+    const elements = posts.map((item)=>{
+        const {id, ...itemProps} = item;
         return (
-            <PostListItem {...item} key={key}/>
+            <PostListItem 
+                {...itemProps} 
+                key={id}
+                onDelete={()=>onDelete(id)}/>
         )
     });
     return(
